@@ -37,7 +37,10 @@ Navbar
 .search {
     outline: none;
     border: none;
-    margin-left: -1rem;
+    width: 55%;
+}
+.fa-magnifying-glass{
+    margin-right: 2rem;
 }
 /* Hamburger Icon */
 .navbar-toggler-icon {
@@ -171,10 +174,12 @@ Active Email Section
 .reply-area {
     height: 10rem;
 }
-
 .reply-box {
     height: 100%;
     width: 95%;
+}
+.reply-box:focus {
+    outline: none;
 }
 .send-button {
     border-radius: 2rem;
@@ -196,10 +201,14 @@ Media Queries
 @media screen and (max-width: 575px) {
     body {
         background-color: var(--g2);   
-        margin: 1rem 1rem;
+        margin: 1rem 1rem 1rem 0;
     }
     .my-folders{
         width: 0;
+        padding-left: .5rem;
+    }
+    .fa-magnifying-glass{
+        margin-right: .35rem;
     }
     
     /* Compose Button */
@@ -232,14 +241,16 @@ Media Queries
     body {
       background-color: var(--b5);
       color: var(--g1);
-
     }
     .folder-icon {
         display: none; 
     } 
+    .search {
+        margin-left: 2rem;
+    }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 600px) {
     .folder-icon {
         display: inline;
     }

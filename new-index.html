@@ -57,48 +57,60 @@
 
             <!-- Inbox / Message Stream + Nav  -->
             <div class="col col-sm-8 col-xl-4 my-inbox">
-                <!-- Search bar -->
-                <nav class="navbar bg-body-tertiary my-navbar">                   
-                    <!-- Dropdown Menu -->
-                    <button class="navbar-toggler d-sm-none my-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-            
-                    <!-- Collapsed Items -->
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                        <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-            
-                        <!-- Folders -->
-                        <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inbox</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">Snoozed</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Sent</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Drafts</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">All Mail</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Trash</a>
-                            </li>
-                        </div>
-                    </div>
+                <!-- search bar -->
+                <nav class="navbar bg-body-tertiary my-navbar ">
+                    <div class="container">
+                    
+                        <!-- Dropdown Menu -->
+                        <button class="navbar-toggler d-sm-none my-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                 
-                    <!-- Search -->
-                    <input class="me-2 search" placeholder=" Search in mail" aria-label="Search">
-                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <i class="fa-solid fa-rainbow d-sm-none"></i>
+                        <!-- Collapsed Items -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                            <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                
+                            <!-- Folders -->
+                            <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inbox</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#">Snoozed</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sent</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Drafts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">All Mail</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Trash</a>
+                                </li>
+                            </div>
+                        </div>
+                
+                        <!-- Search Bar -->
+                        <nav class="navbar bg-body-tertiary  ">
+                            <div class="container-fluid">
+                            <!-- <a class="navbar-brand">Navbar</a> -->
+                                <form class="d-flex" role="search">
+                                    <input class="me-2 search" placeholder="Search in mail" aria-label="Search">
+                                </form>
+                            </div>
+                            <a class="" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </nav>
+                
+                        
+                        
+                    </div>
                 </nav>
 
                 <h2>Inbox</h2>
