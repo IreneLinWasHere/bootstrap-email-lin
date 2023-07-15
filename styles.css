@@ -14,7 +14,9 @@
 }
 
 body {
+    margin: 0 0 0 3%;
     font-family: sans-serif;
+
 }
 
 
@@ -196,7 +198,10 @@ Media Queries
         background-color: var(--g2);   
         margin: 1rem 1rem;
     }
-        
+    .my-folders{
+        width: 0;
+    }
+    
     /* Compose Button */
     .compose-button{
         position: fixed;
